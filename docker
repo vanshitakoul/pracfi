@@ -1,0 +1,12 @@
+docker -v
+docker images
+docker ps
+docker pull openjdk
+docker images
+docker run --name JAVA -it -d openjdk
+docker exec -it JAVA jshell
+System.out.println("Hello World");
+/exit
+docker ps
+docker stop 1b1e0621211b
+docker container rm 1b1e0621211b
