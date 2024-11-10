@@ -1,0 +1,26 @@
+npm init
+create index.js
+mongosh
+use student
+db.createCollection('profile')
+db.profile.insertOne({name : "Vanshita", email : "koulvanshita@gmail.com", city : "pune"})
+copy mongodb.js and index.js
+
+vscode terminal
+npm i mongodb
+npm i express
+node index.js
+on postman
+get localhost:3005/
+post
+{
+    "name" : "Vanshita",
+    "email" :"koulvanshita@gmail.com",
+    "city" :"pune"
+}
+put localhost:3005/Vanshita
+  {
+    "name" : "Vanshita",
+    "email" :"koulvanshita@gmail.com",
+    "city" :"delhi"
+}
