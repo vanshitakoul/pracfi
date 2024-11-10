@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Simple Mobile Website</title>
+
+  <!-- jQuery and jQuery Mobile CDN Links -->
+  <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+  <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+  <style>
+    /* Override jQuery Mobile's default styles */
+
+    /* Header styling */
+    .custom-header {
+      background-color: #fbbae4 !important;
+      color: rgb(240, 231, 231) !important;
+      text-align: center !important;
+      padding: 10px !important;
+    }
+
+    /* Footer styling */
+    .custom-footer {
+      background-color: #333 !important;
+      color: white !important;
+      text-align: center !important;
+      padding: 10px !important;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    /* Main content styling */
+    .ui-content {
+      text-align: center !important;
+      color: #333 !important;
+    }
+
+    /* Navbar styling */
+    .ui-navbar ul {
+      background-color: #9b4caf !important;
+    }
+    .ui-navbar a {
+      color: rgb(227, 184, 239) !important;
+    }
+    .ui-navbar a.ui-btn-active {
+      background-color: #333 !important;
+      color: #f495d7 !important;
+    }
+
+    /* Styling text inside the main content area */
+    .ui-content h2 {
+      color: #9b4caf;
+    }
+    .ui-content p {
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Home Page -->
+  <div data-role="page" id="home">
+    <div data-role="header" class="custom-header">
+      <h1>Home Page</h1>
+    </div>
+
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#home" class="ui-btn-active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <div role="main" class="ui-content">
+      <h2>Welcome!</h2>
+      <p>This is a mobile-friendly website created with jQuery Mobile.</p>
+      <p>Enjoy easy navigation and a smooth experience across pages.</p>
+    </div>
+
+    <div data-role="footer" class="custom-footer">
+      <h4>&copy; 2024 Mobile Web Inc.</h4>
+    </div>
+  </div>
+
+  <!-- About Page -->
+  <div data-role="page" id="about">
+    <div data-role="header" class="custom-header">
+      <h1>About Us</h1>
+    </div>
+
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about" class="ui-btn-active">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <div role="main" class="ui-content">
+      <h2>Who We Are</h2>
+      <p>We are a team dedicated to creating efficient, mobile-friendly solutions for everyone.</p>
+      <p>Our goal is to bring the best user experience to the mobile platform.</p>
+    </div>
+
+    <div data-role="footer" class="custom-footer">
+      <h4>&copy; 2024 Mobile Web Inc.</h4>
+    </div>
+  </div>
+
+  <!-- Services Page -->
+  <div data-role="page" id="services">
+    <div data-role="header" class="custom-header">
+      <h1>Our Services</h1>
+    </div>
+
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services" class="ui-btn-active">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <div role="main" class="ui-content">
+      <h2>What We Offer</h2>
+      <p>Our services include mobile web development, consulting, and UI/UX design for a variety of needs.</p>
+      <p>We ensure responsive and user-friendly interfaces for all devices.</p>
+    </div>
+
+    <div data-role="footer" class="custom-footer">
+      <h4>&copy; 2024 Mobile Web Inc.</h4>
+    </div>
+  </div>
+
+  <!-- Contact Page -->
+  <div data-role="page" id="contact">
+    <div data-role="header" class="custom-header">
+      <h1>Contact Us</h1>
+    </div>
+
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact" class="ui-btn-active">Contact</a></li>
+      </ul>
+    </div>
+
+    <div role="main" class="ui-content">
+      <h2>Get in Touch</h2>
+      <p>Email us at <a href="mailto:info@mobilewebinc.com">info@mobilewebinc.com</a></p>
+      <p>Or call us at +123-456-7890</p>
+    </div>
+
+    <div data-role="footer" class="custom-footer">
+      <h4>&copy; 2024 Mobile Web Inc.</h4>
+    </div>
+  </div>
+
+</body>
+</html>
