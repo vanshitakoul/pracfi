@@ -1,0 +1,12 @@
+** Links:
+Visual Studio Code Download Link : https://bit.ly/3Nzh6RD
+Node.js Download Link : https://bit.ly/3ailfen
+
+
+** Commands To Execute In Terminal:
+ 1. npm --version     - It is used to check the version of nodejs 
+ 2. npm install @angular/cli@latest  - It is used to install angular cli
+ 3. ng new part-c    - It is used to create new angular project
+ 4. ng serve        - It is used to compile the code (Make sure you are in correct directory before executing this command)
+ 
+ Then copy the localhost address with port and paste it in your browser (if it not redirected automatically to your default browser).
