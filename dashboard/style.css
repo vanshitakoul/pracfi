@@ -1,0 +1,33 @@
+/* Main container styling */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Sidebar styling */
+  #sidebar-wrapper {
+    min-width: 200px;
+    max-width: 200px;
+    height: 100vh;
+  }
+  
+  .sidebar-heading {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+  /* Sidebar list items */
+  .list-group-item {
+    border: none;
+  }
+  
+  .list-group-item a {
+    display: block;
+    padding: 10px;
+  }
+  
+  /* Card shadow and rounded corners */
+  .card {
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  }
+  

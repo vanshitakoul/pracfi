@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>College Admin Dashboard</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-dark bg-primary">
+    <a class="navbar-brand" href="#">Admin Dashboard</a>
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#">Logout</a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Main container -->
+  <div class="d-flex">
+    <!-- Sidebar -->
+    <div class="bg-dark" id="sidebar-wrapper">
+      <div class="sidebar-heading text-white p-3">Dashboard Menu</div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item bg-dark text-white">
+          <a href="#" class="text-white">Dashboard</a>
+        </li>
+        <li class="list-group-item bg-dark text-white">
+          <a href="#" class="text-white">Students</a>
+        </li>
+        <li class="list-group-item bg-dark text-white">
+          <a href="#" class="text-white">Courses</a>
+        </li>
+        <li class="list-group-item bg-dark text-white">
+          <a href="#" class="text-white">Faculty</a>
+        </li>
+        <li class="list-group-item bg-dark text-white">
+          <a href="#" class="text-white">Reports</a>
+        </li>
+        <li class="list-group-item bg-dark text-white">
+          <a href="#" class="text-white">Settings</a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Page Content -->
+    <div class="container-fluid p-4">
+      <h2>Welcome to the Admin Dashboard</h2>
+      <p class="mb-4">Here’s an overview of the current status.</p>
+
+      <!-- Statistics Cards -->
+      <div class="row">
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card bg-primary text-white shadow">
+            <div class="card-body">
+              Total Students
+              <div class="h4">2,345</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card bg-success text-white shadow">
+            <div class="card-body">
+              Active Courses
+              <div class="h4">78</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card bg-warning text-white shadow">
+            <div class="card-body">
+              Faculty Members
+              <div class="h4">56</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card bg-danger text-white shadow">
+            <div class="card-body">
+              Pending Approvals
+              <div class="h4">12</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Bootstrap JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
