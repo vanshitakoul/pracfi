@@ -1,0 +1,5 @@
+make folder and open in vs
+in new terminal cmd prompt
+npm init (package.json is created)
+create new file index.js
+npm install express --save 
